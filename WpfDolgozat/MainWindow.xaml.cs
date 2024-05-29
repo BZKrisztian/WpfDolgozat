@@ -48,7 +48,7 @@ namespace WpfDolgozat
         {
             if (data4buttondislp.IsChecked == true)
             {
-                string targetName = "Jane Smith";
+                string targetName = "Jennifer";
             Page3 page3Content = new Page3(targetName);
             TaskHolder.Content = page3Content;                
             }

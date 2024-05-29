@@ -9,10 +9,12 @@
              Background="AliceBlue">
     <Grid>
         <StackPanel>
-            <ListBox x:Name="databoxFromCsv">
-                
+            <ListBox x:Name="databoxFromCsv"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Width="200"
+                     Height="200">
             </ListBox>
         </StackPanel>
-            
     </Grid>
 </UserControl>
